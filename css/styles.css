@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-image: url("../img/grass.gif");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+}
+
+.container {
+    width: 60%;
+    /* height: 100vh; */
+    background-color: white;
+    margin: auto;
+}
+
+nav {
+    border-bottom: 1px solid #222;
+    height: 40px;
+}
+
+nav ul {
+    padding-left: 0;
+    margin: 0;
+    height: 100%;
+    /* height: 50px; */
+    background-color: #222;
+}
+
+nav li {
+    list-style-type: none;
+    /* display: inline-block; */
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    height: 100%;
+    float: left;
+    /* vertical-align: middle; */
+}
+
+nav a {
+    color: whitesmoke;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+    /* vertical-align: middle; */
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+nav a:hover {
+    /* border: 1px solid red; */
+    background-color: whitesmoke;
+    color: #222;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
