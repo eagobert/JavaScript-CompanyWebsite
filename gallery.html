@@ -1,102 +1,62 @@
 <!DOCTYPE html>
 <html>
     <title>G.O.A.T. Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="gallery.css">
+    
  <body>
-
+  <div class="container">
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+      </nav>
+      <img src="img/sparkle-goat-1.gif" class="sparkles">
+      <img src="img/sparkle-goat-1.gif" class="sparkles">
+      <img src="img/sparkle-goat-1.gif" class="sparkles">
     <h1>Meet The Goats!</h1>
-
+<div class="gallery">
 <div class="row">
     <div class="column">
-      <img src="NeeganTheGoat.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+      <img 
+        src="gallery-img/NeeganTheGoat.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"
+        style="height:100px; width:100px">
     </div>
     <div class="column">
-      <img src="CourageAndFam.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+      <img 
+        src="gallery-img/CourageAndFam.png" onclick="openModal();currentSlide(2)" class="hover-shadow"
+        style="height:100px; width:100px">
     </div>
     <div class="column">
-      <img src="GlenAndGroup.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+      <img 
+        src="gallery-img/GlenAndGroup.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"
+        style="height:100px; width:100px">
     </div>
     <div class="column">
-      <img src="JanetTheGoat.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+      <img 
+        src="gallery-img/JanetTheGoat.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"
+        style="height:100px; width:100px">
     </div>
     <div class="column">
-        <img src="SargeTheGoat.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        <img
+          src="gallery-img/SargeTheGoat.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"
+          style="height:100px; width:100px">
     </div>
     <div class="column">
-        <img src="OprahAndFollowers.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        <img 
+          src="gallery-img/OprahAndFollowers.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"
+          style="height:100px; width:100px">
     </div>
-    <div class="column">
-        <img src="http://lorempixel.com/200/200/goats" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-    <div class="column">
-        <img src="http://lorempixel.com/200/200/goats" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-    <div class="column">
-        <img src="http://lorempixel.com/200/200/goats" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-    <div class="column">
-        <img src="http://lorempixel.com/200/200/goats" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-    <div class="column">
-        <img src="http://lorempixel.com/200/200/goats" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-    <div class="column">
-        <img src="http://lorempixel.com/200/200/goats" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
+
   </div>
+</div>
   
-  <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
   
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="NeeganTheGoat.jpg" onclick="currentSlide(1)" alt="Mean looking goat">
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="CourageAndFam.png" onclick="currentSlide(2)" alt="Two goats and a dog">
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="GlenAndGroup.jpg" onclick="currentSlide(3)" alt="Group of five goats">
-      </div>
-  
-      <div class="column">
-        <img class="demo" src="JanetTheGoat.jpg" onclick="currentSlide(4)" alt="Goat in a suit">
-      </div>
-      <div class="column">
-        <img class="demo" src="SargeTheGoat.jpg" onclick="currentSlide(4)" alt="Goat in army fatigues">
-      </div>
-      <div class="column">
-        <img class="demo" src="OprahAndFollwers.jpg" onclick="currentSlide(4)" alt="Single goat leading a large herd of goats">
-      </div>
-      <div class="column">
-        <img class="demo" src="http://lorempixel.com/200/200/goats" onclick="currentSlide(4)" alt="Goat placeholder image">
-      </div>
-      <div class="column">
-        <img class="demo" src="http://lorempixel.com/200/200/goats" onclick="currentSlide(4)" alt="Goat placeholder image">
-      </div>
-      <div class="column">
-        <img class="demo" src="http://lorempixel.com/200/200/goats" onclick="currentSlide(4)" alt="Goat placeholder image">
-      </div>
-      <div class="column">
-        <img class="demo" src="http://lorempixel.com/200/200/goats" onclick="currentSlide(4)" alt="Goat placeholder image">
-      </div>
-      <div class="column">
-        <img class="demo" src="http://lorempixel.com/200/200/goats" onclick="currentSlide(4)" alt="Goat placeholder image">
-      </div>
-      <div class="column">
-        <img class="demo" src="http://lorempixel.com/200/200/goats" onclick="currentSlide(4)" alt="Goat placeholder image">
-      </div>
     </div>
-  </div>
   <script src="gallery-controller.js"></script>
   <script src="gallery-factory.js"></script>  
  </body>
