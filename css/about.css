@@ -1,14 +1,10 @@
 .goatgif {
-    display: inline-block;
+    position: absolute;
     margin: 0% auto;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
+    padding-top: 130px;
+    padding-left: 250px;
     
-
-
 }
 
-.about-content {
- 
-
-}
