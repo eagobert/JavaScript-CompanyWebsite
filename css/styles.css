@@ -12,27 +12,59 @@ body {
     margin: auto;
 }
 
-nav {
+nav,
+footer {
     border-bottom: 1px solid #222;
     height: 40px;
+}
+
+footer {
+    background-color: #222;
+    color: whitesmoke;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul:last-of-type {
+    width: 50px;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+footer div {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 300px;
+    margin: auto;
+}
+
+footer li {
+    list-style-type: none;
+    text-decoration: none; 
 }
 
 nav ul {
     padding-left: 0;
     margin: 0;
     height: 100%;
-    /* height: 50px; */
     background-color: #222;
 }
 
 nav li {
     list-style-type: none;
-    /* display: inline-block; */
-    /* padding-left: 10px; */
     padding-right: 10px;
     height: 100%;
     float: left;
-    /* vertical-align: middle; */
 }
 
 nav a {
@@ -40,7 +72,6 @@ nav a {
     height: 30px;
     width: 100%;
     text-decoration: none;
-    /* vertical-align: middle; */
     display: block;
     text-align: center;
     padding-top: 10px;
@@ -49,7 +80,6 @@ nav a {
 }
 
 nav a:hover {
-    /* border: 1px solid red; */
     background-color: whitesmoke;
     color: #222;
 }
@@ -57,4 +87,29 @@ nav a:hover {
 .content {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.fa-facebook-official,
+.fa-twitter {
+    color: whitesmoke;
+}
+
+.sparkles {
+    position: absolute;
+}
+
+.sparkles:first-of-type {
+    top: 80px;
+    right: 0;
+}
+
+.sparkles:nth-of-type(2) {
+    top: 380px;
+    left: 0;
+}
+
+.sparkles:last-of-type {
+    position: absolute;
+    top: 680px;
+    right: 0;
 }
