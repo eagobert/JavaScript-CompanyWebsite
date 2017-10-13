@@ -31,3 +31,48 @@ img.hover-shadow {
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
   }
+  nav,
+  footer {
+      /* border-bottom: 1px solid #222; */
+      background-color: whitesmoke;
+      color: #804000;
+      height: 40px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  footer div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  footer ul {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px; 
+  }
+  
+  footer ul:last-of-type {
+      width: 50px;
+      /* border: 1px solid blue; */
+      justify-content: space-between;
+      margin-right: 40px;
+  }
+  
+  footer div {
+      /* border: 1px solid red; */
+      height: 40px;
+      width: 300px;
+      margin: auto;
+  }
+  
+  footer li {
+      list-style-type: none;
+      text-decoration: none; 
+  }
+  .fa-facebook-official,
+  .fa-twitter {
+      color: #804000;
+  }
+  
