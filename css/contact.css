@@ -1,1 +1,101 @@
-/* --Layout Styles-- */
+
+.social-media {
+    display: inline;
+
+}
+
+.social-media .fa-facebook-official,
+.social-media .fa-twitter {
+    color: whitesmoke;
+
+}
+
+.employee-profiles {
+    width: 100%;
+}
+
+.profiles-box {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content p{
+    border: 7px dotted hotpink;
+    color: cornsilk ;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+
+h1{
+    border: 4px double goldenrod;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: cornsilk
+}
+
+h2{
+    border: 4px dashed blueviolet;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: cornsilk
+}
+
+h3{
+    border: 4px dotted yellow;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: cornsilk
+}
+
+h4{
+    border: 7px dashed purple;
+    color: violet ;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+.location-map iframe {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* model background */
+#customer-info-modal {
+    display: block;
+    /* position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* enable scrolling */
+    /* background-color: rgba(0,0,0,0.5); */ 
+}
+
+.modal-content,
+#next-btn {
+    background-color: whitesmoke;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #804000;
+    width: 75%;
+    color: #804000;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+}
+
+#next-btn {
+    width: 25%;
+    margin-top: 0;
+}
+
+#state {
+    background-color: whitesmoke;
+    border-radius: 0; 
+}
