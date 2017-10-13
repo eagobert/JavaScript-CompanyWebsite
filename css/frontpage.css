@@ -1,0 +1,96 @@
+.content p{
+    border: 7px dotted hotpink;
+    color: cornsilk ;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+
+h1{
+    border: 4px double goldenrod;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: cornsilk
+}
+
+h2{
+    border: 4px dashed blueviolet;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: cornsilk
+}
+
+h3{
+    border: 4px dotted yellow;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: cornsilk
+}
+
+h4{
+    border: 7px dashed purple;
+    color: violet ;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+
+
+.visualArea {
+    width:900px;
+      height: 1000px;
+      overflow: hidden;
+      position: absolute;
+    top:20%;
+    left:50%;
+    margin-left:-480px;
+    z-index: 10;
+  }
+  .visualArea > div {
+      position: absolute;
+      top: -856px;
+      left: -150px;
+  }
+  .visualArea .firstWrap {
+      -webkit-animation: falling 9s linear 9.5 infinite;
+  }
+  .visualArea .lastWrap {
+      -webkit-animation: falling 9s linear 9.5s infinite;
+  }
+  .visualArea .firstWrap.stop {
+      -webkit-animation-play-state: paused;
+  }
+  .visualArea .lastWrap.stop {
+      -webkit-animation-play-state: paused;
+  }
+  .visualArea ul {
+      width: 100% px;
+      position: relative;
+      top: 100%;
+      left: 0;
+  }
+  .visualArea ul:nth-child(2n) {
+      margin-left: -100px;
+  }
+  .visualArea ul li {
+      display: inline-block;
+      width: 180px;
+      height: 90px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 10px 52px;
+  }
+  .visualArea ul li.leftSide {
+      background-image: url('/img/parachutegoatpng2000.png');
+  }
+  
+  .visualArea img {
+      position: absolute;
+      top: 0;
+      right:0;
+  }
+  /*keyframes*/
+  @-webkit-keyframes falling {
+  0% {top:-856px;left:-150px;}
+  100% {top:856px;left:150px;}
+  }
