@@ -1,4 +1,7 @@
-
+body {
+    font-family: 'Delius';
+    font-size: .92em;
+}   
 .social-media {
     display: inline;
 
