@@ -1,0 +1,33 @@
+figure {
+  font-size: smaller;
+  position: relative;
+  padding-bottom: 10%;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: 'Delius';
+  font-size: .92em; 
+
+} 
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+  
+.column { 
+  display: inline-flex;
+  width: 33%;
+  flex-grow: 1;
+  flex-direction: row;
+  }
+
+img.hover-shadow {
+  transition: 0.3s
+  }
+ 
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
